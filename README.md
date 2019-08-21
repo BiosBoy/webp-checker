@@ -4,7 +4,7 @@
 
 ### The easist way to check webp support in any browser!
 
-[![npm](https://badgen.net/npm/v/webp-checker)](https://www.npmjs.com/package/webp-checker) [![Price](https://img.shields.io/badge/price-FREE-purple.svg)](https://github.com/BiosBoy/webp-checker/blob/master/LICENSE) [![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](https://github.com/BiosBoy/webp-checker/blob/master/LICENSE) [![GitHub package version](https://img.shields.io/badge/version-1.1.1-green.svg)](https://github.com/BiosBoy/webp-checker)
+[![npm](https://badgen.net/npm/v/webp-checker)](https://www.npmjs.com/package/webp-checker) [![Price](https://img.shields.io/badge/price-FREE-purple.svg)](https://github.com/BiosBoy/webp-checker/blob/master/LICENSE) [![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](https://github.com/BiosBoy/webp-checker/blob/master/LICENSE) [![GitHub package version](https://img.shields.io/badge/version-1.1.1-green.svg)](https://github.com/BiosBoy/webp-checker)![Size](https://img.badgesize.io/biosboy/webp-checker/master/index.js.jpg)
 
   
 
