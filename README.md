@@ -27,7 +27,7 @@
 ```
   import webpChecker from 'webp-checker' // import it;
 
-  const config = { // set desired configuration
+  const config = {
     imgURL: 'imgSrc', // your_webp_image_src, by default used google static image
     disableGlobal: true, // disable global injection in 'window' object, by default 'false'
     injectBodyClass: false, // explicitly set a 'body' class 'webp-support', by default 'true',
