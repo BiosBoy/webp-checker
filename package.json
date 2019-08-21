@@ -1,6 +1,6 @@
 {
   "name": "webp-checker",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Easy way to understand is the browser has webP support or not",
   "main": "index.js",
   "author": "Sviatoslav Kuzhelev Front-End Dev <sviat770@gmail.com> <https://sviathuzh.top>",
