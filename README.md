@@ -20,7 +20,8 @@
    ```
      yarn add web-checker
    ```
-**Important!** - you need to run `webp-checker` as soon as possible in a very first component/module that has an interaction with the whole DOM. For example in `create-react-app` you probably shall run the below script example in the `componentDidMount()` method of the root App.js component (or if your're using `Redux` state managment inside its `initialState.js`). 
+**Important!** - you need to run `webp-checker` as soon as possible in a very first component/module that has an interaction with the whole DOM. For example in `create-react-app` you probably shall run the below script example in the `componentDidMount()` method of the root App.js component (or if your're using `Redux` state managment inside its `initialState.js`).
+
 **Quick Start:**
     - So, to get know is your browser has webP support or not, basically, you need just to run `webpChecker`. 
    After function running you will get a `window` variable `__WEBPSUPPORT__` (e.g. `window.__WEBPSUPPORT__`) with boolean value that shows is webp support `true/false`. 
