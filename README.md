@@ -11,15 +11,47 @@
 ![logo_image](https://raw.githubusercontent.com/BiosBoy/webp-checker/master/web-checker_logo.jpg)
 
 **How to use:**
+  - Prepare:
+   Install `ewb-checker` as a regular `node_modules` package via:
+   ```
+     npm i web-checker
+   ```
+   or yarn:
+   ```
+     yarn add web-checker
+   ```
+  
   - Quick Start:
    So, to get know is your browser has webP support or not, basically, you need just to run `webpChecker`. 
-   After function running you will get a `window` variable `__WEBPSUPPORT__` (e.g. `window.__WEBPSUPPORT__`) with boolean value that shows is webp support `true/false`.
+   After function running you will get a `window` variable `__WEBPSUPPORT__` (e.g. `window.__WEBPSUPPORT__`) with boolean value that shows is webp support `true/false`. 
+   
+   **Important!** - you need to run `webp-checker` as soon as possible in a very first component/module that has an interaction with the whole DOM. For example in `create-react-app` you probably shall run the below script example in the `componentDidMount()` method of the root App.js component or iside `initialState.js` if your're using `Redux` state managment.
+   
+   Example for React usage:
   ```
+    // ...some logic
     import webpChecker from 'webp-checker' // import it;
 
-    webpChecker(); // run checker
+    class App extends React.Component {
+     // ...some logic
+     
+     componentDidMount() {
+         webpChecker(); // run checker
     
-    window.__WEBSUPPORT__ // get notified about browser webp support by this global variable
+         window.__WEBSUPPORT__ // get notified about browser webp support by this global variable
+     }
+     
+     // ...some logic
+    }
+  ```
+  
+   Example basic:
+  ```
+     import webpChecker from 'webp-checker' // import it;
+
+     webpChecker(); // run checker
+    
+     window.__WEBSUPPORT__ // get notified about browser webp support by this global variable
   ```
 
   - Advanced:
