@@ -8,15 +8,17 @@ How to use:
     import webpChecker from 'webp-checker' // import it;
 
     webpChecker(); // run checker
+    
+    window.__WEBSUPPORT__ // get notified about browser webp support by this global variable
   ```
 
   - Advanced:
   In case when you need to set up a better custom config you can throw props as:
 ```
   const config = {
-    imgURL: {your_webp_image_src}
-    disableGlobal: {disable global injection in 'window' object},
-    injectBodyClass: {explicitly set a 'body' class 'webp-support'},
+    imgURL: {your_webp_image_src, by default used google static image}
+    disableGlobal: {disable global injection in 'window' object, by default 'false'},
+    injectBodyClass: {explicitly set a 'body' class 'webp-support', by default 'true'},
     callback: {some callback that you want to return with webp checker result 'true/false'}
   }
 ```
