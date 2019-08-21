@@ -28,10 +28,10 @@
   import webpChecker from 'webp-checker' // import it;
 
   const config = { // set desired configuration
-    imgURL: {your_webp_image_src, by default used google static image},
-    disableGlobal: {disable global injection in 'window' object, by default 'false'},
-    injectBodyClass: {explicitly set a 'body' class 'webp-support', by default 'true'},
-    callback: {some callback that you want to return with webp checker result 'true/false'}
+    imgURL: 'imgSrc', // your_webp_image_src, by default used google static image
+    disableGlobal: true, // disable global injection in 'window' object, by default 'false'
+    injectBodyClass: false, // explicitly set a 'body' class 'webp-support', by default 'true',
+    callback: status => status // some callback that you want to return with webp checker result 'true/false'
   }
   
   webpChecker(config); // run checker
