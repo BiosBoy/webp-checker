@@ -8,7 +8,7 @@
 
   
 
-![logo_image](https://raw.githubusercontent.com/BiosBoy/webp-checker/master/web-checker_logo.png)
+![logo_image](https://raw.githubusercontent.com/BiosBoy/webp-checker/master/web-checker_logo.jpg)
 
 How to use:
   - Quick Start:
