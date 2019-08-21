@@ -1,6 +1,6 @@
 # WebP Checker
 
- [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=See&url=https://github.com/BiosBoy/webp-checker&via=svyat770&hashtags=js,jsx,webp checker,webp-checker,webp,html,css)
+ [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=See&url=https://github.com/BiosBoy/webp-checker&via=svyat770&hashtags=js,jsx,webp,checker,webp-checker,webp,html,css)
 
 ### The easist way to check webp support in any browser!
 
