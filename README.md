@@ -27,7 +27,7 @@
    - So, to get know is your browser has webP support or not, basically, you need just to run `webpChecker`. 
    After function running you will get a `window` variable `__WEBPSUPPORT__` (e.g. `window.__WEBPSUPPORT__`) with boolean value that shows is webp support `true/false`. 
    
-   Example for React usage:
+  -- Example for React usage:
   ```
     // ...some logic
     import webpChecker from 'webp-checker' // import it;
@@ -45,7 +45,7 @@
     }
   ```
   
-   Example basic:
+  -- Example basic:
   ```
      import webpChecker from 'webp-checker' // import it;
 
