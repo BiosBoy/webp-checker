@@ -20,7 +20,7 @@
    ```
      yarn add web-checker
    ```
-**Important!** - you need to run `webp-checker` as soon as possible in the first component/module that has an interaction with the whole DOM. For example in `create-react-app` you probably should run the below script example in the `componentDidMount()` method of the root App.js component (or if you're using `Redux` state managment inside its `initialState.js`).
+**Important!** - you need to run `webp-checker` as soon as possible inside the very first component/module that has an interaction with the whole DOM. For example in `create-react-app` you probably should run the below script example in the `componentDidMount()` method of the root App.js component (or if you're using `Redux` state managment inside its `initialState.js`).
 
 **Quick Start:**
 
